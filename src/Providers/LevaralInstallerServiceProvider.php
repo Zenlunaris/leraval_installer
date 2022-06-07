@@ -46,7 +46,7 @@ class LevaralInstallerServiceProvider extends ServiceProvider
     protected function publishFiles()
     {
         $this->publishes([
-            __DIR__.'/../Config/leraval_installer.php' => base_path('config/leraval_installer.php'),
+            __DIR__.'/../Config/levaral_installer.php' => base_path('config/levaral_installer.php'),
         ], 'laravelinstaller');
 
         $this->publishes([

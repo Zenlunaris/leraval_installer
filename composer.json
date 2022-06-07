@@ -1,0 +1,38 @@
+{
+    "name": "zenlunaris/levaral-installer",
+    "type": "library",
+    "description": "Web installer for Levaral",
+    "keywords": ["installer","laravel","web-installer", "app-installer"],
+    "homepage": "https://zenlunaris.dev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zenlunaris",
+            "email": "gg.taiphan@gmail.com",
+            "homepage": "https://zenlunaris.dev",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zenlunaris\\LevaralInstaller\\": "src/"
+        },
+        "files": [
+            "src/Helpers/functions.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zenlunaris\\LevaralInstaller\\Providers\\LevaralInstallerServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable"
+}

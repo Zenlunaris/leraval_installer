@@ -1,9 +1,9 @@
 <?php
 
-namespace RachidLaasri\LaravelInstaller\Controllers;
+namespace Zenlunaris\LevaralInstaller\Controllers;
 
 use Illuminate\Routing\Controller;
-use RachidLaasri\LaravelInstaller\Helpers\DatabaseManager;
+use Zenlunaris\LevaralInstaller\Helpers\DatabaseManager;
 
 class DatabaseController extends Controller
 {

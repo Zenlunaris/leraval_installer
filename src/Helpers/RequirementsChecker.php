@@ -1,6 +1,6 @@
 <?php
 
-namespace RachidLaasri\LaravelInstaller\Helpers;
+namespace Zenlunaris\LevaralInstaller\Helpers;
 
 class RequirementsChecker
 {

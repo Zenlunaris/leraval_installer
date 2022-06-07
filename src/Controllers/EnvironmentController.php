@@ -1,14 +1,14 @@
 <?php
 
-namespace RachidLaasri\LaravelInstaller\Controllers;
+namespace Zenlunaris\LevaralInstaller\Controllers;
 
 use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 use Illuminate\Routing\Redirector;
 use Illuminate\Support\Facades\DB;
-use RachidLaasri\LaravelInstaller\Events\EnvironmentSaved;
-use RachidLaasri\LaravelInstaller\Helpers\EnvironmentManager;
+use Zenlunaris\LevaralInstaller\Events\EnvironmentSaved;
+use Zenlunaris\LevaralInstaller\Helpers\EnvironmentManager;
 use Validator;
 
 class EnvironmentController extends Controller

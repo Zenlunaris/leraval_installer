@@ -1,13 +1,13 @@
 <?php
 
-namespace RachidLaasri\LaravelInstaller\Providers;
+namespace Zenlunaris\LevaralInstaller\Providers;
 
 use Illuminate\Routing\Router;
 use Illuminate\Support\ServiceProvider;
-use RachidLaasri\LaravelInstaller\Middleware\canInstall;
-use RachidLaasri\LaravelInstaller\Middleware\canUpdate;
+use Zenlunaris\LevaralInstaller\Middleware\canInstall;
+use Zenlunaris\LevaralInstaller\Middleware\canUpdate;
 
-class LaravelInstallerServiceProvider extends ServiceProvider
+class LevaralInstallerServiceProvider extends ServiceProvider
 {
     /**
      * Indicates if loading of the provider is deferred.

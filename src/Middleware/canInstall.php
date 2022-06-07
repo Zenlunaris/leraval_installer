@@ -1,6 +1,6 @@
 <?php
 
-namespace RachidLaasri\LaravelInstaller\Middleware;
+namespace Zenlunaris\LevaralInstaller\Middleware;
 
 use Closure;
 use Redirect;
